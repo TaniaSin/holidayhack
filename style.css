@@ -1,0 +1,304 @@
+body
+{ margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0; 
+  height: 100%;
+      background-image: url("https://i.imgur.com/em6Xu6f.gif");
+ background-repeat: repeat; 
+  background-position: bottom left;
+  background-attachment: fixed;
+  
+  
+}
+.footer {
+   position: fixed;
+   left: 328px;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   background-image: url("https://i.imgur.com/n3FO1m6.gif");
+   background-repeat: repeat-x; 
+  background-position: bottom left;
+}
+.header {
+   position: fixed;
+  height: 200px;
+   left: 328px;
+   top: 0px;
+   width: 100%;
+   color: white;
+   text-align: center;
+   background-image: url("https://i.imgur.com/luATiYP.gif");
+   background-repeat: repeat-x; 
+  background-position: top left;
+}
+
+#menu {
+  position: fixed;
+  left: 1px;
+  padding: 8px;
+  width: 310px;
+  height: 100%;
+  border-right: 1px solid #000;
+  background-color: #9a54da;
+  font-family: KRISTEN ITC;
+	font-size: 11pt;
+	color: #141213;
+	line-height: 12pt;
+	letter-spacing: 1px;
+	background-image: url("https://i.imgur.com/nwyKy4q.jpg");
+  background-size: cover;
+	overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+}
+
+#content {
+
+  margin-left: 329px;
+  padding: 0px;
+  margin-right: 0px;
+    background-image: url("https://i.imgur.com/em6Xu6f.gif");
+ background-repeat: repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: , bottom left;
+  font-family: KRISTEN ITC;
+  text-transform: lowercase;
+	font-size: 11pt; 
+	color: #141213;
+	line-height: 20pt;
+	letter-spacing: 1px;
+	height: 100%;
+	text-align: justify;
+}
+.subtitle {
+	text-align: left;
+	color: #d8c2ff;
+	font-weight: bold;
+	line-height: 22px;
+	margin: 15px 0;
+	letter-spacing: 1px;
+	font-size: 20px;
+	text-transform: lowercase;
+	font-family: KRISTEN ITC; 
+	background: #ffffc2;
+	border: 1px dashed #000;
+	text-shadow: 2px 2px #000;
+  border-radius: 15px;
+}
+.title {
+	font-weight: 100;
+	text-transform: lowercase;
+		font-family: KRISTEN ITC; 
+	color: #37cac4;
+	font-size: 58px;
+	line-height: 54px;
+	text-align: center;
+	margin: 15px 0;
+	font-weight: bold;
+}
+@font-face {
+  
+    font-family:'KRISTEN ITC';
+    src:url('/ITCKRIST.ttf');
+    font-style: Normal;
+    font-weight: 100;
+}
+h1 {
+  text-align: center
+	color: #000;
+	font-weight: bold;
+	line-height: 22px;
+	margin: 15px 0;
+	letter-spacing: 1px;
+	font-size: 20px;
+	text-transform: lowercase;
+	font-family: KRISTEN ITC; 
+	text-shadow: 2px 2px #cafdff;
+}
+i {
+	color: #a3fdff;
+	font-size: 12pt;
+	font-family: georgia;
+	letter-spacing: 2px;
+}
+em {
+background: #d8c2ff;
+color:#a8fda5;
+font-weight: none;
+   font-style: normal;
+   letter-spacing: 1px;
+   font-family: kristen itc;
+   font-size: 10pt;
+   text-transform: lowercase;
+
+}
+b {
+  color: #ffff9b;
+}
+u {
+  text-decoration: underline dashed;
+}
+a {
+  color: #fff;
+  font-weight: bold;
+  font-size:12pt;
+  background: linear-gradient(90deg, #fd31b2, #fe6d2e, #03fc02, #0ce2e4, #548af5, #9a54da);
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin: auto;
+    text-decoration: none;
+}
+
+a:hover {
+  color: transparent;
+    text-decoration: none;
+  transition: 500ms ease;
+}
+.image {
+	float: left;
+	  padding: 15px;
+}
+.image2 {
+	float: right;
+}
+table.unstyledTable {
+  font-family: Kristen ITC, Helvetica, sans-serif;
+  border: 1px dashed #000000;
+  background-color: #E7BB41;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+table.unstyledTable td, table.unstyledTable th {
+  border: 1px solid #000000;
+  padding: 4px 10px;
+}
+table.unstyledTable tbody td {
+  font-size: 12px;
+}
+table.unstyledTable tr:nth-child(even) {
+  background: #e7bb41;
+}
+table.unstyledTable thead {
+  background: #9A54DA;
+}
+table.unstyledTable thead th {
+  font-size: 16px;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+table.sitely {
+  font-family: Verdana, Geneva, sans-serif;
+  border: 1px dashed #000000;
+  background-color: #9A54DA;
+  width: 500px;
+  text-align: center;
+}
+table.sitely td, table.sitely th {
+  border: 1px dashed #000;
+  padding: 4px 4px;
+}
+table.sitely tr:nth-child(even) {
+  background: #03fc02;
+}
+hr {
+	clear: both;
+	margin: 20px auto;
+	width: 70%;
+	border: 0;
+	border-top: 1px solid #d7d7d7;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px black; 
+  border-radius: 1px;
+  background: #9a54da;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fd31b2; 
+  border-radius: 1px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #548af5; 
+}
+.third {
+	width: 31%;
+	margin: 40px 1%;
+	float: left;
+	text-align: center;
+}
+h3 {
+	font-size: 24pt;
+	margin: 30px 0;
+	color: #0958f1;
+}
+h2 {
+	font-size: 50pt;
+	margin: 30px 0;
+	color: #0958f1;
+}
+body, html {
+     cursor: url("https://64.media.tumblr.com/tumblr_m2wiw2Heiu1qfamg6.gif"), auto;
+   }
+.updates {
+	padding: 8px;
+	background: url("https://media.giphy.com/media/d3FyzF80cdxQvxgQ/giphy.gif");
+	background-size: 100%;
+	background-position: bottom;
+	border: 1px solid #f1f1f1;
+	text-align: justify;
+	width: 660px;
+	font-family: kristen itc;
+	text-transform: lowercase;
+	font-size: 9pt;
+	letter-spacing: 1px;
+}
+.centered {
+    margin: 0 auto;
+    text-align: justify;
+    width: 80%;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px dashed #000;
+  float: left;
+  width: 244px;
+  padding: 10px;
+}
+
+div.gallery:hover {
+  border: 1px solid #9a54da;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: arial;
+  font-size: 11px;
+}
+table, th, td {
+  border: 1px dashed black;
+  font-weight: normal;
+  min-width: 15em;
+  padding: 2px;
+}
